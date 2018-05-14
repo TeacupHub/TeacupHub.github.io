@@ -1,0 +1,147 @@
+body {
+    background-color: black;
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    padding-left: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation {
+    text-align: center;
+    padding: 20px;
+    width: auto
+}
+
+h1 {
+    color: white;
+    font-family: arial;
+    letter-spacing: 2px;
+    font-weight: 200;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    color: #aaaaaa;
+    text-align: center;
+    font-family: arial;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.home, .info, .creations {
+    text-decoration: none;
+    font-family: arial;
+    font-size: 20px;
+    color: gray;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+.home:hover, .info:hover, .creations:hover {
+    background-color: #111111;
+}
+
+.fadein {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.titlefadein {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.link {
+    color: #4cff00;
+    font-family: arial;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
