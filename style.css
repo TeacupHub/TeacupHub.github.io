@@ -71,7 +71,7 @@ p {
         opacity:1;
     }
 }
-@-moz-keyframes fadein { /* Firefox */
+@-moz-keyframes fadein { 
     from {
         opacity:0;
     }
@@ -79,7 +79,7 @@ p {
         opacity:1;
     }
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
+@-webkit-keyframes fadein { 
     from {
         opacity:0;
     }
@@ -87,7 +87,7 @@ p {
         opacity:1;
     }
 }
-@-o-keyframes fadein { /* Opera */
+@-o-keyframes fadein { 
     from {
         opacity:0;
     }
@@ -101,9 +101,9 @@ p {
     font-size: 21px;
     text-align: center;
     animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+    -moz-animation: fadein 2s; 
+    -webkit-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
 }
 @keyframes fadein {
     from {
@@ -113,7 +113,7 @@ p {
         opacity:1;
     }
 }
-@-moz-keyframes fadein { /* Firefox */
+@-moz-keyframes fadein { 
     from {
         opacity:0;
     }
@@ -121,7 +121,7 @@ p {
         opacity:1;
     }
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
+@-webkit-keyframes fadein { 
     from {
         opacity:0;
     }
@@ -129,7 +129,7 @@ p {
         opacity:1;
     }
 }
-@-o-keyframes fadein { /* Opera */
+@-o-keyframes fadein { 
     from {
         opacity:0;
     }
